@@ -29,7 +29,6 @@ fi
 
 
 if test ! -e results/${inputfilebasename}.readlength.txt; then
-    i
     Rscript scripts/plot_readlengths_histogram.R results/${inputfilebasename}_readlength.txt
 fi
 
