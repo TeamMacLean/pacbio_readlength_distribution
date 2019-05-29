@@ -1,6 +1,6 @@
 #!/bin/bash
 inputfile=$1
-outputfile=$1
+outputfile=$2
 minlength=$3
 
 
